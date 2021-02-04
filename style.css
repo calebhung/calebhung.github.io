@@ -12,7 +12,7 @@ body {
     top: 0px;
     position: sticky;
     margin: 0 auto;
-    width: 1300px;
+    width: 50%;
 }
 .navigation li{
     display: inline-block;

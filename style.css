@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap);
 body {
     background-color: #333;
     background-image: linear-gradient(to bottom, #373B44, #4286f4, #6190E8, #A7BFE8);
@@ -9,8 +10,9 @@ body {
     list-style: none;
     font-size: 0;
     top: 0px;
-    background-color: rgb(50,50,50, 0.50);
     position: sticky;
+    margin: 0 auto;
+    width: 1300px;
 }
 .navigation li{
     display: inline-block;
@@ -19,11 +21,66 @@ body {
     display: block;
     color: white;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif; 
     font-size: 18px;
-    padding: 15px;
+    padding: 20px 15px;
 }
 .navigation li a:hover{
-    background-color: rgb(256, 256, 256, 0.3);
+    opacity: .5;
     transition: 0.5s;
 }
+
+h1{
+    font-family: 'Open Sans', sans-serif;
+    height: 100vh;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+h1{
+    font-weight: 200;
+    margin: 0.4rem;
+}
+h1{
+    font-size: 24px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+    padding: 0 3rem;
+}
+
+
+@media(min-width: 1200px){
+    h1{
+        font-size: 48px;
+    }
+}
+@media(max-width: 800px){
+    .container{
+        padding: 0 1rem;
+    }
+    h1{
+        font-size: 24px;
+    }
+}
+@media(max-width: 500px){
+    h1{
+        font-size: 18px;
+    } 
+}
+
+.txt-type > .txt {
+    border-right: 0.3rem solid rgba(219, 219, 219, 0.8);
+    animation: blinkTextCursor 500ms steps(40) infinite normal;
+  }
+  @keyframes blinkTextCursor {
+    from {
+      border-right-color: rgba(255,255,255,.8);
+    }
+    to {
+      border-right-color: transparent;
+    }
+  }

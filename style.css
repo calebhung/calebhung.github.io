@@ -2,6 +2,7 @@
     body {
         background-color: #333;
         background-image: linear-gradient(to bottom, #373B44, #4286f4, #6190E8, #A7BFE8);
+        background-repeat: no-repeat;
         height: 5000px;
         margin:0;
         padding: 0;
@@ -43,16 +44,12 @@
     h1{
     font-size: 24px;
 }
-
 .container{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 100%;
     padding: 0 3rem;
 }
-
-
 @media(min-width: 1500px){
     h1{
         font-size: 32px;
@@ -83,4 +80,11 @@
     to {
       border-right-color: transparent;
     }
+  }
+  .frame{
+      background-size: cover;
+  }
+  .resume{
+      target-name:new;
+      target-new:tab;
   }

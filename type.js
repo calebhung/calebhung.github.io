@@ -35,7 +35,7 @@ TypeWriter.prototype.type = function () {
         this.isDeleting = false;
         this.wordIndex++;
         //Pause
-        typeSpeed = 3000;
+        typeSpeed = 500;
     }
 
     // insert Txt into element

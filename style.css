@@ -9,7 +9,7 @@ body {
     list-style: none;
     font-size: 0;
     top: 0px;
-    background-color: black;
+    background-color: rgb(50,50,50, 0.50);
     position: sticky;
 }
 .navigation li{

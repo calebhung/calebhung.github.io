@@ -23,7 +23,7 @@ TypeWriter.prototype.type = function () {
     //Initial Type Speed
     let typeSpeed = 150;
     if (this.isDeleting) {
-        typeSpeed /= 2;
+        typeSpeed /= 3;
     }
     // If word is complete
     if (!this.isDeleting && this.txt == fullTxt) {
@@ -35,7 +35,7 @@ TypeWriter.prototype.type = function () {
         this.isDeleting = false;
         this.wordIndex++;
         //Pause
-        typeSpeed = 2000;
+        typeSpeed = 3000;
     }
 
     // insert Txt into element

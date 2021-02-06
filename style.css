@@ -1,7 +1,7 @@
     @import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap);
     body {
         background-color: #333;
-        background-image: linear-gradient(to bottom, #131415, rgb(41, 72, 129), #e1639e);
+        background-image: linear-gradient(to bottom, #131415, rgb(41, 72, 129), #3D3953);
         background-repeat: no-repeat;
         height: 5000px;
         margin:0;

@@ -72,6 +72,12 @@
       padding:0;
       height: 500px;
   }
+  .constellation{
+    position: absolute;
+    margin:0;
+    padding:0;
+    height: 50px;
+}
   .shower{
       position: absolute;
       width: 1000px;
@@ -90,12 +96,12 @@
       animation: shower 5s linear infinite;
   }
 
-  #constellation{
+  #dots{
       border-radius: 999px;
       width: 5px;
       height: 5px;
       background: transparent;
-      box-shadow: 1397px 100px #dbf0ff, 1505px 200px #dbf0ff, 1542px 283px #dbf0ff, 1555px 433px #dbf0ff, 1750px 367px #dbf0ff;
+      box-shadow: 1097px 100px #dbf0ff, 1205px 200px #dbf0ff, 1242px 283px #dbf0ff, 1255px 433px #dbf0ff, 1450px 367px #dbf0ff;
       z-index: 1;
   }
   #const{
@@ -104,8 +110,8 @@
     width: 1px;
     height: 145px;
     background: transparent;
-    box-shadow: 1401px 101px #fff;
-    transform-origin: 1400px 100px;
+    box-shadow: 1101px 101px #fff;
+    transform-origin: 1100px 100px;
     transform: rotate(-47deg);
     opacity: 0.50;
     z-index: 0;
@@ -116,8 +122,8 @@
     width: 1px;
     height: 91px;
     background: transparent;
-    box-shadow: 1508px 201px #fff;
-    transform-origin: 1505px 200px;
+    box-shadow: 1208px 201px #fff;
+    transform-origin: 1205px 200px;
     transform: rotate(-25deg);
     opacity: 0.50;
     z-index: 0;
@@ -128,8 +134,8 @@
     width: 1px;
     height: 225px;
     background: transparent;
-    box-shadow: 1545px 283px #fff;
-    transform-origin: 1542px 283px;
+    box-shadow: 1245px 283px #fff;
+    transform-origin: 1242px 283px;
     transform: rotate(-68deg);
     opacity: 0.50;
     z-index: 0;
@@ -140,8 +146,8 @@
     width: 1px;
     height: 150px;
     background: transparent;
-    box-shadow: 1545px 283px #fff;
-    transform-origin: 1542px 283px;
+    box-shadow: 1245px 283px #fff;
+    transform-origin: 1242px 283px;
     transform: rotate(-5deg);
     opacity: 0.50;
     z-index: 0;

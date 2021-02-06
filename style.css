@@ -102,7 +102,7 @@
       width: 5px;
       height: 5px;
       background: transparent;
-      box-shadow: 798px 101px #dbf0ff, 905px 201px #dbf0ff, 943px 283px #dbf0ff, 956px 433px #dbf0ff, 1150px 367px #dbf0ff;
+      box-shadow: 698px 101px #dbf0ff, 805px 201px #dbf0ff, 843px 283px #dbf0ff, 856px 433px #dbf0ff, 1050px 367px #dbf0ff;
       z-index: 1;
   }
   #const{
@@ -111,8 +111,8 @@
     width: 1px;
     height: 145px;
     background: transparent;
-    box-shadow: 801px 101px #fff;
-    transform-origin: 801px 100px;
+    box-shadow: 701px 101px #fff;
+    transform-origin: 701px 100px;
     transform: rotate(-47deg);
     opacity: 0.50;
     z-index: 0;
@@ -123,8 +123,8 @@
     width: 1px;
     height: 91px;
     background: transparent;
-    box-shadow: 908px 201px #fff;
-    transform-origin: 908px 200px;
+    box-shadow: 808px 201px #fff;
+    transform-origin: 808px 200px;
     transform: rotate(-25deg);
     opacity: 0.50;
     z-index: 0;
@@ -135,8 +135,8 @@
     width: 1px;
     height: 225px;
     background: transparent;
-    box-shadow: 947px 283px #fff;
-    transform-origin: 945px 283px;
+    box-shadow: 847px 283px #fff;
+    transform-origin: 845px 283px;
     transform: rotate(-68deg);
     opacity: 0.50;
     z-index: 0;
@@ -147,8 +147,8 @@
     width: 1px;
     height: 150px;
     background: transparent;
-    box-shadow: 945px 283px #fff;
-    transform-origin: 945px 283px;
+    box-shadow: 845px 283px #fff;
+    transform-origin: 845px 283px;
     transform: rotate(-5deg);
     opacity: 0.50;
     z-index: 0;

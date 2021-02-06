@@ -1,7 +1,7 @@
     @import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap);
     body {
         background-color: #333;
-        background-image: linear-gradient(to bottom, #373B44, #4286f4, #6190E8, #A7BFE8);
+        background-image: linear-gradient(to bottom, #131415, rgb(41, 72, 129), #e1639e);
         background-repeat: no-repeat;
         height: 5000px;
         margin:0;
@@ -89,6 +89,63 @@
       filter:drop-shadow(0 0 6px #699bff);
       animation: shower 5s linear infinite;
   }
+
+  #constellation{
+      border-radius: 999px;
+      width: 5px;
+      height: 5px;
+      background: transparent;
+      box-shadow: 1397px 100px #dbf0ff, 1505px 200px #dbf0ff, 1542px 283px #dbf0ff, 1555px 433px #dbf0ff, 1750px 367px #dbf0ff;
+      z-index: 1;
+  }
+  #const{
+      position: absolute;
+    border-radius: 999px;
+    width: 1px;
+    height: 145px;
+    background: transparent;
+    box-shadow: 1401px 101px #fff;
+    transform-origin: 1400px 100px;
+    transform: rotate(-47deg);
+    opacity: 0.50;
+    z-index: 0;
+}
+#const2{
+    position: absolute;
+    border-radius: 999px;
+    width: 1px;
+    height: 91px;
+    background: transparent;
+    box-shadow: 1508px 201px #fff;
+    transform-origin: 1505px 200px;
+    transform: rotate(-25deg);
+    opacity: 0.50;
+    z-index: 0;
+}
+#const3{
+    position: absolute;
+    border-radius: 999px;
+    width: 1px;
+    height: 225px;
+    background: transparent;
+    box-shadow: 1545px 283px #fff;
+    transform-origin: 1542px 283px;
+    transform: rotate(-68deg);
+    opacity: 0.50;
+    z-index: 0;
+}
+#const4{
+    position: absolute;
+    border-radius: 999px;
+    width: 1px;
+    height: 150px;
+    background: transparent;
+    box-shadow: 1545px 283px #fff;
+    transform-origin: 1542px 283px;
+    transform: rotate(-5deg);
+    opacity: 0.50;
+    z-index: 0;
+}
   #stars{
       overflow: hidden;
       width: 1px;
@@ -585,7 +642,7 @@
     overflow: hidden;
     width: 3px;
     height: 3px;
-    background: transaprent;
+    background: transparent;
     animation: animStar 150s linear infinite;
     box-shadow: 387px 1878px #fff, 760px 1564px #fff, 1487px 999px #fff,
     948px 1828px #fff, 1977px 1001px #fff, 1284px 1963px #fff, 656px 284px #fff,

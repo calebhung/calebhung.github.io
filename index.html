@@ -1,27 +1,44 @@
 <!DOCTYPE html>
 <html>
+
 <head>
+    <div class="progress-container">
+        <div class="progress-bar" id="myBar"></div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(window.onscroll = function () { myFunction() });
+
+        function myFunction() {
+            var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            var scrolled = (winScroll / height) * 100;
+            console.log(height);
+            console.log(scrolled);
+            document.getElementById("myBar").style.width = scrolled + "%";
+        }
+    </script>
+    <script src="fade.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie-edge">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="transition.css">
     <ul class="navigation">
         <li style="font-weight:bold"><a href="index.html"> CALEB HUNG </a> </li>
         <li style="float:right" class="active"><a href="contact.html"> CONTACT </a> </li>
-        <li style="float:right"><a href="resume.pdf" target="_blank"> RESUME </a> </li>
-        <li style="float:right"><a href="projects.html"> PROJECTS </a> </li>
         <li style="float:right"><a href="about.html"> ABOUT </a> </li>
+        <li style="float:right"><a href="resume.pdf" target="_blank"> RESUME </a> </li>
+        <li id="top" class="scroll" style="float:right"><a href=#projectscroll> PROJECTS </a> </li>
     </ul>
 </head>
 
 <body>
-    <div class ="shower">
+    <div class="shower">
         <div id="meteor"></div>
         <div id="meteor2"></div>
         <div id="meteor3"></div>
     </div>
-    <div class ="wrapper">
+    <div class="wrapper">
         <div id="stars"></div>
         <div id="stars2"></div>
         <div id="stars3"></div>
@@ -33,7 +50,7 @@
         <div id="const3"></div>
         <div id="const4"></div>
     </div>
-    <div class ="container" style="position:relative; top: 3%;">
+    <div class="container" style="position:relative; top: 3%;">
         <h1>
             //
             <span class="txt-type" data-wait="3000"
@@ -41,5 +58,43 @@
         </h1>
     </div>
     <script src="type.js"></script>
+    <div id="projectscroll" class="projects">
+        <div class="works">
+            <div class="fade-in">
+                <img src="garage.jpg" alt="iGarage">
+                <h2>iGarage | Engineer | 2nd Place Hardware | Rose Hack</h2>
+            </div>
+            <div class="fade-in">
+                <img src="silk.png" alt="Mount Roubidoux">
+                <h2>Silk | Web Development | Databasing | HackUCI</h2>
+            </div>
+            <div class="fade-in">
+                <img src="zoom.jpg" alt="Mount Roubidoux">
+                <h2>Zoom | User Experience Research </h2>
+            </div>
+        </div>
+
+
+        <div class="works">
+            <div class="fade-in">
+                <img src="clicker.png" alt="Mount Roubidoux">
+                <h2>Clicker | Product Design | App Development</h2>
+            </div>
+            <div class="fade-in">
+                <img src="ilearn.jpg" alt="Mount Roubidoux">
+                <h2>iLearn | Web Design</h2>
+            </div>
+            <div class="fade-in">
+                <img src="airpod.gif" alt="Mount Roubidoux">
+                <h2>AirPod Max | Product Design</h2>
+            </div>
+        </div>
+    </div>
+
+    <script src="fadein.js"></script>
+    </div>
+<div class="footer">
+    <li>CALEB HUNG © 2021</li>
+</div>
 </body>
 </html>

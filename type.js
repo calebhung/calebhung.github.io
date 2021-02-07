@@ -43,7 +43,7 @@ TypeWriter.prototype.type = function () {
     setTimeout(() => this.type(), typeSpeed)
 }
 // Get current index of word
-//Init on DOM Load
+//Init on DOM Loads
 document.addEventListener('DOMContentLoaded', init);
 
 function init() {
@@ -52,4 +52,3 @@ function init() {
     const wait = txtElement.getAttribute('data-wait');
     new TypeWriter(txtElement, words, wait);
 }
-

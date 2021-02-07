@@ -813,6 +813,7 @@ cursor: default;
     background: rgb(88, 120, 179);
     width: 0%;
     position: fixed;
+    z-index: 5;
 }
 
 .projects h2{

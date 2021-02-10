@@ -2,6 +2,9 @@
 <html>
 
 <head>
+    <div class="spaceman">
+        <img src="space.gif" alt=spaceman>
+    </div>
     <div class="progress-container">
         <div class="progress-bar" id="myBar"></div>
     </div>
@@ -18,7 +21,6 @@
             document.getElementById("myBar").style.width = scrolled + "%";
         }
     </script>
-    <script src="fade.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie-edge">
@@ -26,7 +28,7 @@
     <ul class="navigation">
         <li style="font-weight:bold"><a href="index.html"> CALEB HUNG </a> </li>
         <li style="float:right" class="active"><a href="contact.html"> CONTACT </a> </li>
-        <li style="float:right"><a href="about.html"> ABOUT </a> </li>
+        <li style="float:right"><a href="#" onclick="OpenRightMenu()"> ABOUT </a> </li>
         <li style="float:right"><a href="resume.pdf" target="_blank"> RESUME </a> </li>
         <li id="top" class="scroll" style="float:right"><a href=#projectscroll> PROJECTS </a> </li>
     </ul>
@@ -61,7 +63,8 @@
     <div id="projectscroll" class="projects">
         <div class="works">
             <div class="fade-in">
-                <a href="https://devpost.com/software/remote-garage-controller" target="_blank"><img src="garage.jpg" alt="iGarage"></a>
+                <a href="https://devpost.com/software/remote-garage-controller" target="_blank"><img src="garage.jpg"
+                        alt="iGarage"></a>
                 <h2>iGarage | Engineer | 2nd Place Hardware | Rose Hack</h2>
             </div>
             <div class="fade-in">
@@ -77,15 +80,18 @@
 
         <div class="works">
             <div class="fade-in">
-                <a href="https://mrcalebhung.wixsite.com/mysite/copy-of-page-2-blackboard" target="_blank"><img src="clicker.png" alt="Clicker"></a>
+                <a href="https://mrcalebhung.wixsite.com/mysite/copy-of-page-2-blackboard" target="_blank"><img
+                        src="clicker.png" alt="Clicker"></a>
                 <h2>Clicker | Product Design | App Development</h2>
             </div>
             <div class="fade-in">
-                <a href="https://mrcalebhung.wixsite.com/mysite/project-01" target="_blank"><img src="ilearn.jpg" alt="iLearn"></a>
+                <a href="https://mrcalebhung.wixsite.com/mysite/project-01" target="_blank"><img src="ilearn.jpg"
+                        alt="iLearn"></a>
                 <h2>iLearn | Web Design</h2>
             </div>
             <div class="fade-in">
-                <a href="https://mrcalebhung.wixsite.com/mysite/copy-of-project-01" target="_blank"><img src="airpod.gif" alt="AirPod Max"></a>
+                <a href="https://mrcalebhung.wixsite.com/mysite/copy-of-project-01" target="_blank"><img
+                        src="airpod.gif" alt="AirPod Max"></a>
                 <h2>AirPod Max | Product Design</h2>
             </div>
         </div>
@@ -93,10 +99,11 @@
 
     <script src="fadein.js"></script>
     </div>
-<div class="footer">
-    <ul>coded with love </ul>
-    <ul>© 2021 caleb hung</ul>
-    
-</div>
+    <div class="footer">
+        <ul>coded with love </ul>
+        <ul>© 2021 caleb hung</ul>
+
+    </div>
 </body>
+
 </html>
